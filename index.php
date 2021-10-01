@@ -53,7 +53,7 @@
      
 </form>
     <form action="changeuser.php" method="POST">
-    <input type="text" name="changeuser" method="POST" value="<?php print_r($user); ?>"></input>
+    <input type="hidden" name="changeuser" method="POST" value="<?php print_r($user); ?>"></input>
     <button class="btn btn-info">Change</button>
 </form>
 </div>

@@ -1,5 +1,4 @@
 <?php 
-
 $userobj = $_POST['changeuser'];
 
 if(isset($userobj)) {
